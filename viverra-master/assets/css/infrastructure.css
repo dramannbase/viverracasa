@@ -231,6 +231,46 @@ img{
     font-family: bold;
 }
 
+#service .services-list li button
+{
+    
+    line-height: 3.4em;
+    font-family: bold;
+    position: relative;
+    display: block;
+
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0;
+
+    text-align: left;
+
+    border: none;
+    border-radius: 0;
+    border-bottom: 4px white solid;
+
+}
+
+
+#service .services-list li button:after
+{
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 1.7rem;
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+    content: '\f078';
+    -webkit-transform: translateY(-50%) rotate(270deg);
+        -ms-transform: translateY(-50%) rotate(270deg);
+            transform: translateY(-50%) rotate(270deg);
+
+    color: #fff;
+}
+
+
+
 @media (max-width:1000px)
 {
     
@@ -304,6 +344,42 @@ img{
     }
     
     
+#service .services-list li button
+{
+    
+    line-height: 3.4em;
+    font-family: bold;
+    position: relative;
+    display: block;
+
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0;
+
+    text-align: left;
+
+    border: none;
+    border-radius: 0;
+    border-bottom: 3px white solid;
+}
+
+#service .services-list li button:after
+{
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 1.3rem;
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+    content: '\f078';
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+
+    color: #fff;
+}
+
 
 }
 
@@ -319,11 +395,7 @@ img{
     margin: 0 auto 8vh auto;
     }
 
-    #intro .container-mid
-{
-    width: 130%;
-    margin-left:-15%;
-}
+  
 
 }
 
@@ -348,6 +420,22 @@ img{
         height: 2rem;
 
     }
+    #service .services-list li button:after
+{
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 1.1rem;
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+    content: '\f078';
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+
+    color: #fff;
+}
 }
 
 @media (max-width:450px)
@@ -798,23 +886,6 @@ img{
     display: block;
 }
 
-#service .services-list li button
-{
-    
-    line-height: 3.4em;
-    font-family: bold;
-    position: relative;
-    display: block;
-
-    width: 100%;
-    margin-bottom: 1rem;
-    padding: 0;
-
-    text-align: left;
-
-    border: none;
-    border-radius: 0;
-}
 
 #service .services-list li .well
 {
@@ -833,8 +904,9 @@ img{
     background-color: rgba(0,0,0,0);
     -webkit-box-shadow: none;
             box-shadow: none;
-}
 
+    
+}
 
 
 /** 8. Content Area --> Work
